@@ -60,4 +60,4 @@ vector<int> vi;
 	cout << "vector of ints has " << threes << " elements";
 
 	int tees = count(begin(vs[0]), end(vs[0]), 't');
-	cout << "first word has " << tees << " letter t's";
+	cout << "ffirst word has " << tees << " letter t's";
