@@ -1,0 +1,34 @@
+bool init = true;
+	double small, large, a;
+
+	while (cin >> a)
+	{
+		if (a < -10)
+		{
+			error("stopped");
+		}
+		cout << a << endl;
+		if (init)
+		{
+			small = a;
+			large = a;
+			init = false;
+
+		}
+		else if (a < small)
+		{
+			cout << "the smallest so far\n";
+			small = a;
+		}
+		else if (a > large)
+		{
+			cout << "the largest so far\n";
+			large = a;
+		}
+
+		/*double diff = abs(a-b);
+		if (diff < 1.0 / 100)
+		{
+			cout << "the numbers are almost equal";
+		}*/
+	}
